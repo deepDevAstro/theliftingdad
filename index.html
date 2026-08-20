@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Lifting Dad | Strong Body, Strong Mind, Strong Families</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --accent-primary: #ef4444;
+            --accent-secondary: #f59e0b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 480px;
+            width: 100%;
+        }
+
+        .profile-area {
+            margin-bottom: 32px;
+        }
+
+        .logo-placeholder {
+            width: 96px;
+            height: 96px;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            border-radius: 50%;
+            margin: 0 auto 16px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            font-weight: bold;
+            box-shadow: 0 10px 15px -3px rgba(239, 68, 68, 0.3);
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 800;
+            letter-spacing: -0.05em;
+            margin-bottom: 8px;
+        }
+
+        p.tagline {
+            color: var(--text-muted);
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 1.5;
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            background-color: var(--card-bg);
+            color: var(--text-main);
+            text-decoration: none;
+            padding: 16px 24px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.2s ease-in-out;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            border-color: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-instagram:hover {
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        }
+
+        .btn-youtube:hover {
+            background-color: #ff0000;
+        }
+
+        footer {
+            color: var(--text-muted);
+            font-size: 12px;
+            letter-spacing: 0.05em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="profile-area">
+            <div class="logo-placeholder">🏋️‍♂️</div>
+            <h1>The Lifting Dad</h1>
+            <p class="tagline">Strong Body • Strong Mind • Strong Families</p>
+        </div>
+
+        <div class="links-container">
+            <!-- REPLACE THE HREFS WITH YOUR ACTUAL ACCOUNT LINKS -->
+            <a href="https://instagram.com/YOUR_USERNAME" target="_blank" class="btn btn-instagram">
+                📸 Follow on Instagram
+            </a>
+            
+            <a href="https://youtube.com/@YOUR_CHANNELS" target="_blank" class="btn btn-youtube">
+                📺 Subscribe on YouTube
+            </a>
+        </div>
+
+        <footer>
+            &copy; 2026 The Lifting Dad. All Rights Reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
